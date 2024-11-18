@@ -1,1 +1,3 @@
 # UniversalSCP-Solver
+
+This report outlines my approach to solving the Set Cover Problem using a Genetic Algorithm. It presents the results froma standard Genetic Algorithm implementation, followed by a detailed explanation of modifications aimed at improvingconvergence and final accuracy. These modifications include designing a well-defined fitness function, introducing decayingcrossover and mutation rates, implementing multiple crossover points for a fixed mixing number, and including local beam search with an increasing rate to address the limitations of the Genetic Algorithm. The modified approach performed as expected, yielding improved results that support the hypothesis.
